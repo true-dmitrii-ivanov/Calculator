@@ -12,6 +12,6 @@ class Timer:
         print(f'Function {self.fn.__name__} finish working in {finish - start} seconds')
         return result
 
-
+@Timer
 def stepen(num, stepen):
     return num ** stepen
